@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+header {
+    background-color: #a0c5f8;
+    padding: 10px 0;
+    height: 65px;
+}
+
+.container {
+    width: 1000px;
+    /* border: 3px solid black; */
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.c-flex {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.e-flex {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+
+.d-flex {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.misbehave {
+    font-size: 45px;
+}
+
+.centered {
+    text-align: center;
+    margin-top: 10px;
+    background: #eeeeee;
+    position: relative;
+}
+
+.apart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+    padding-top: 10px;
+}
+
+.main-body {
+    display: flex;
+    gap: 10px;
+}
+
+main img {
+    width: 242px;
+    background-color: #eeeeee;
+}
+
+main label {
+    text-align: center;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid black;
+    background-color: #eeeeee;
+    margin-top: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.foot-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 100px;
+    margin: 15px;
+}
+
+.btn {
+    background-color: #a0c5f8; 
+    width: 100px;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.centered1 {
+    margin-top: 40px;
+}
+
+
+.foot-right {
+    margin-right: 40px;
+}
+
+footer h1, p {
+    font-size: 25px;
+}
+
+footer h1 {
+    margin-top: 10px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer span {
+    text-decoration: underline;
+    color: #376fa3;
+}
+
+main select {
+    width: 50px;
+    border: 3px solid black;
+}  
+
+main span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blue {
+    color: #2b78e4;
+}
+
+.red {
+    color: #cf2a27;
+}
+
+
+
